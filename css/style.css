@@ -402,6 +402,61 @@ footer a {
 }
 
 
+footer .links {
+    height: 44px;
+    line-height: 44px;
+    background: #004d88;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+footer .links div {
+    float:right;
+    position:relative;
+    left:-50%;
+}
+footer .links menu {
+    display: block;
+    padding: 0;
+    margin:0;
+    position:relative;
+    left:50%;
+    list-style-type: none;
+}
+
+footer .links menu li {
+    float: left;
+    display: block;
+    padding: 0;
+    margin:0;
+}
+
+footer .links a:visited,
+footer .links a {
+    color: #002e51;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+    padding: 0 20px;
+    position: relative;
+    display: block;
+    float: left;
+    height: 44px;
+}
+
+footer .links span {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    display: block;
+    position: absolute;
+    left: 50%;
+    border-top: 7px solid #006ab0;
+}
+
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
 .ir br { display: none; }
 .hidden { display: none !important; visibility: hidden; }
