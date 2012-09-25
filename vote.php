@@ -32,7 +32,7 @@ if (($vote != 1 && $vote != -1) || $video_id <= 0) {
 
 session_write_close();
 
-$config = new Config("../providentvidea.cz.config");
+$config = new Config("../providentvidea.sk.config");
 
 $db = new Db($config->getConfig());
 

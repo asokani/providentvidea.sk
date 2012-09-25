@@ -381,20 +381,20 @@ body > .panel a.button.blue {
 }
 
 footer {
-    height: 104px;
     color: #9fcbec;
     padding: 16px 0 0 0;
     font-size: 12px;
     text-align: center;
     margin: 150px 0 0 0;
     line-height: 18px;
-    background: url("../img/background-footer.png") repeat-x;
+    background: #056aad url("../img/background-footer.png") repeat-x;
 }
 
 footer a:visited,
 footer a {
     display: block;
-    margin: 20px auto 0;
+    margin: 0 auto 0;
+    padding: 0 0 25px 0;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -407,7 +407,7 @@ footer .links {
     line-height: 44px;
     background: #004d88;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 0 0 0 0;
     padding: 0;
 }
 
